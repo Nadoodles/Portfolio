@@ -1,0 +1,53 @@
+.title {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 0.5em;
+    text-align: center;    
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1em;
+    flex-direction: row;
+    padding: 0;
+    list-style: none;
+}
+
+.links li {
+    margin: 0 1em;
+}
+
+.links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.links a:hover {
+    color: #666;
+}
+
+.links a.active {
+    color: dodgerblue;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1em;
+} 
+
+.header {
+    background-color: #f4f4f4;
+    padding: 1em;
+    margin-bottom: 1em;
+}
